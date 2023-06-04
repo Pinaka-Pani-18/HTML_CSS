@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  margin: 100px 200px;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 1090px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.container .box span {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  margin: 5px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 60px;
+  text-align: center;
+  user-select: none;
+  color: black;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.container .box span:hover {
+  background-color: black;
+  color: white;
+}
+
+.container .box span:active {
+  transform: scale(0.9);
+}
+
+.container .box .tilde {
+  width: 45px;
+}
+
+.container .box .backspace {
+  width: 105px;
+}
+
+.container .box .tab {
+  width: 75px;
+}
+
+.container .box .slash {
+  width: 75px;
+}
+
+.container .box .capslk {
+  width: 115px;
+}
+
+.container .box .enter {
+  width: 110px;
+}
+
+.container .box .shift {
+  width: 150px;
+}
+
+.container .box .specialkeys {
+  width: 75px;
+}
+
+.container .box .space {
+  width: 520px;
+}
