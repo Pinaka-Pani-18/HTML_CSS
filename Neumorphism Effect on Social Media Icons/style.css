@@ -12,7 +12,12 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   background: whitesmoke;
+}
+
+h1 {
+  margin-bottom: 20px;
 }
 
 a {
