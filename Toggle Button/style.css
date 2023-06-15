@@ -16,6 +16,10 @@ body {
   height: 100vh;
 }
 
+h1 {
+  margin-bottom: 20px;
+}
+
 label {
   width: 480px;
   height: 180px;
@@ -64,4 +68,8 @@ input:checked ~ label:after {
 
 input:checked ~ .bg {
   background: black;
+}
+
+input:checked ~ h1 {
+  color: white;
 }
